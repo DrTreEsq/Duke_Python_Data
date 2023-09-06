@@ -1,0 +1,3 @@
+[console_scripts]
+kaze = kaze.kaze_cli:kaze
+

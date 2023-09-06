@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: kaze
+Version: 0.0.15
+Summary: CLI for Managing The Data Dependency of Deep Learning Projects
+Home-page: https://github.com/geyang/dew
+Author: Ge Yang
+Author-email: yangge1987@gmail.com
+License: Copyright 2022 Ge Yang        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.        
+Keywords: datasets,data,data science
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: termcolor
+Requires-Dist: functional-notations
+Requires-Dist: requests
+Requires-Dist: params-proto
+
+Kaze, A CLI for Dataset Dependencies in ML Projects |image1|
+============================================================
+
+What is Kaze?
+-------------
+
+Have you downloaded a supervised-learning code-block base, and wish someone
+has specified how to download the dataset needed?
+
+``Kaze`` is a CLI for managing dataset dependencies in ML projects. It
+is a simple, yet powerful tool for managing dataset dependencies in your
+project. It is designed to be used in a way that is similar to ``yarn``
+or ``npm``, but with a focus on the ``dataset`` dependency.
+
+Installation
+------------
+
+.. code-block:: bash
+
+   pip install kaze
+
+Example Usage
+-------------
+
+To download a dataset, you can use the following command:
+
+.. code-block:: bash
+
+   kaze add -n flowers https://www.robots.ox.ac.uk/\~vgg/data/flowers/102/102flowers.tgz --images $DATASETS/jpg
+
+this will populate your ``.kaze.yml`` file with the following:
+
+.. code-block:: yaml
+
+   datasets:
+     - name: flowers
+       source: https://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz
+       images: $DATASETS/jpg
+
+You can also add a dataset from a local file:
+
+.. code-block:: yaml
+
+   kaze add mnist.zip
+
+Usage and Examples
+------------------
+
+.. code-block:: bash
+
+   ❯ kaze --help
+   Usage: kaze [OPTIONS] COMMAND [ARGS]...
+
+   Options:
+     --help  Show this message and exit.
+
+   Commands:
+     add
+     list
+
+``kaze list``
+~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+   ❯ kaze list
+   mnist at /Users/ge/kaze_debug/mnist
+
+``kaze add ...``
+~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+   ❯ kaze add --help
+   Usage: kaze add [OPTIONS] [SOURCE]
+
+   Options:
+     -n, --name TEXT
+     -o, --path TEXT    target location for the dataset
+     -i, --images TEXT  image path
+     --labels TEXT      label path
+     --voice TEXT       voice path
+     --video TEXT       video path
+     -q, --quiet        Verbose mode
+     -z, --unzip        Decompress the dataset
+     -v, --verbose      Verbose mode
+     --help             Show this message and exit.
+
+.. |image1| image:: https://img.shields.io/pypi/v/shields.svg?maxAge=3600&color=%2323aaff&label=PyPI
+   :target: https://pypi.org/project/kaze/
+
+
