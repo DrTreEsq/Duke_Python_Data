@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: functional-notations
+Version: 0.5.2
+Summary: A Decorator Library that allows @ notation for functions
+Home-page: https://github.com/episodeyang/functional_notations
+Author: Ge Yang
+Author-email: ge.ike.yang@gmail.com
+License: UNKNOWN
+Keywords: functional notations,decorator,functional,functional programming
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+
+Abuses the @ notation of python3.5, allowing you to chain functions with the @ operator.
+
+
