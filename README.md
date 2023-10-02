@@ -149,3 +149,8 @@ SELECT*from ratings LIMIT100;
 
 This query is also available in the sql_script directory. Do some data exploration to check the data and get familiar with the type of contents you are going to be working with.
 
+
+## 42
+###### https://hub.labs.coursera.org:443/connect/sharednkitdtum?forceRefresh=false&path=%2F%3Ffolder%3D%2Fhome%2Fcoder%2Fvscode-mysql&isLabVersioning=file-prep
+
+
