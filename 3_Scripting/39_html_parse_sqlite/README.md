@@ -1,3 +1,11 @@
+##### Parse HTML and Persist it to a SQLite Database
+* Use the provided Jupyter Notebook and go through all the cells.
+* Verify that all works by creating a new connection and querying the database.
+* Update the wikipedia-demo project and spider to use some of these techniques to persist data. Next, try parsing all the files in the html directory instead of just one and persist all results. Do you think you can parse other information as well?
+* Try parsing the height and the results from all the other athletes, not just the top three places
+* https://hub.labs.coursera.org:443/connect/sharedlafqeyzo?forceRefresh=false&path=%2Fnotebooks%2Fscrapy-xpath%2Fpersistence.ipynb&isLabVersioning=file-prep
+
+
 ## Parsing With HTMLParser
 
 Python has a built-in parser for HTML. Knowing how to use and take advantage of the HTMLParser library will help you when parsing is needed for simple tasks that do not need much effort.
