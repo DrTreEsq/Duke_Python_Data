@@ -1,3 +1,7 @@
+#### Parse HTML with HTMLParser
+##### Use the notebook to practice parsing using the HTMLParser library. Go through all the cells to create a class that will parse HTML.
+##### Find an alternative way to prevent double entries from showing up in the exercise
+* https://hub.labs.coursera.org:443/connect/sharedyhpayeyu?forceRefresh=false&path=%2Fnotebooks%2Fscrapy-xpath%2Fscraping-with-htmlparser.ipynb&isLabVersioning=file-prep
 ## Parsing With HTMLParser
 
 Python has a built-in parser for HTML. Knowing how to use and take advantage of the HTMLParser library will help you when parsing is needed for simple tasks that do not need much effort.
