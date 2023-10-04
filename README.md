@@ -18,9 +18,3 @@
 ###### Go through all the cells and practice using different SQL statements to filter out the data and get different results.
 ##### Use different conditions to search for distinct paths, like file names that are partially matched.
 ###### https://hub.labs.coursera.org:443/connect/sharedqmijvnhg?forceRefresh=false&path=%2Fnotebooks%2Fpython-scripting%2Fquerying-databases.ipynb&isLabVersioning=file-prep
-
-
-#### Parse HTML with HTMLParser
-##### Use the notebook to practice parsing using the HTMLParser llibrary. Go through all the cells to create a class that will parse HTML.
-##### Find an alternative way to prevent double entries from showing up in the exercise
-* https://hub.labs.coursera.org:443/connect/sharedyhpayeyu?forceRefresh=false&path=%2Fnotebooks%2Fscrapy-xpath%2Fscraping-with-htmlparser.ipynb&isLabVersioning=file-prep
