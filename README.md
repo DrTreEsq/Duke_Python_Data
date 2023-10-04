@@ -24,11 +24,3 @@
 ##### Use the notebook to practice parsing using the HTMLParser llibrary. Go through all the cells to create a class that will parse HTML.
 ##### Find an alternative way to prevent double entries from showing up in the exercise
 * https://hub.labs.coursera.org:443/connect/sharedyhpayeyu?forceRefresh=false&path=%2Fnotebooks%2Fscrapy-xpath%2Fscraping-with-htmlparser.ipynb&isLabVersioning=file-prep
-
-##### Parse HTML and Persist it to a SQLite Database
-* Use the provided Jupyter Notebook and go through all the cells.
-* Verify that all works by creating a new connection and querying the database.
-* Update the wikipedia-demo project and spider to use some of these techniques to persist data. Next, try parsing all the files in the html directory instead of just one and persist all results. Do you think you can parse other information as well?
-* Try parsing the height and the results from all the other athletes, not just the top three places
-* https://hub.labs.coursera.org:443/connect/sharedlafqeyzo?forceRefresh=false&path=%2Fnotebooks%2Fscrapy-xpath%2Fpersistence.ipynb&isLabVersioning=file-prep
-
