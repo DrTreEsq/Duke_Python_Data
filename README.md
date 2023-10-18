@@ -1,4 +1,5 @@
-# Duke_Python_Data
+# Bash, and SQL for Data Engineering
+### Duke University online through Coursera
 
 ### Course 1: Python and Pandas - complete✅
 ### Course 2: Linux and Bash - complete✅
