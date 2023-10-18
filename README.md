@@ -10,6 +10,6 @@ Other Tools
 * Microsoft Beginner Python - Lists: https://learn.microsoft.com/en-us/training/modules/intro-python-lists/2-create-use-lists
 ### Course 4: Web Dev and Command Line Tools
 Other Tools
-* https://jupyter.org
-* https://colab.research.google.com
-* https://aihub.cloud.google.com
+* Project Jupyter: https://jupyter.org
+* Google Colab: https://colab.research.google.com
+* Google AI Hub: https://aihub.cloud.google.com
