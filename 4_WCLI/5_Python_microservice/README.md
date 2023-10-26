@@ -36,3 +36,15 @@ run `invoke.sh`
 
 * [Watch Walkthrough on YouTube](https://youtu.be/KOAdCqpQSI4)
 
+Run a Microservice
+
+In this lab you will do the following:  
+
+1.  Run python main.py
+
+2.  Open the browser preview and type in 127.0.0.1:5050/add/2/2
+
+3.  Verify you can add numbers with this microservice
+
+4.  Experiment with adding a new route that multiplies numbers.
+
