@@ -48,3 +48,9 @@ In this lab you will do the following:
 
 4.  Experiment with adding a new route that multiplies numbers.
 
+
+###### You can review an example here:  https://github.com/noahgift/functions-from-zero
+
+###### You can review a what this process look like here:  https://user-images.githubusercontent.com/58792/160030338-de954b2c-8ab2-4980-a459-e512000bb0dd.png
+
+
