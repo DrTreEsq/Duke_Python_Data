@@ -42,7 +42,9 @@ In this lab you will do the following:
 
 1.  Run python main.py
 
+###### there are steps before this - does not pop up automatically, not for regular browser app
 2.  Open the browser preview and type in 127.0.0.1:5050/add/2/2
+
 
 3.  Verify you can add numbers with this microservice
 
