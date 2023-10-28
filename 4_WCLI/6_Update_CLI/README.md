@@ -1,4 +1,4 @@
-## Update a Command Line Tool
+# Update a Command Line Tool
 
 * Create a Virtual Environment and activate it
 * Run python setup.py develop and make sure that the executable works and is available in the terminal
