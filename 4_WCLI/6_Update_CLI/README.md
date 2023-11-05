@@ -1,4 +1,5 @@
 # Update a Command Line Tool
+###### https://www.coursera.org/learn/web-app-command-line-tools-for-data-engineering-duke/ungradedLab/LNaAX/updating-a-command-line-tool
 
 * Create a Virtual Environment and activate it
 * Run python setup.py develop and make sure that the executable works and is available in the terminal
